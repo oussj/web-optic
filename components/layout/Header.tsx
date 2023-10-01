@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0">
+    <header className="sticky top-0 z-40">
       <div className="flex justify-between bg-black h-[75px]">
         <div className="flex items-center px-6">
           <Image
