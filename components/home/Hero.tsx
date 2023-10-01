@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <div className="flex flex-col relative py-40">
+    <div className="flex flex-col relative py-40 h-[70vh]">
       <div className="z-20 px-20 bg-transparent">
         <h1 className="text-[70px] text-white font-bold">
           Découvrez nos collections
@@ -12,9 +12,7 @@ export const Hero = () => {
           sport.
         </h2>
         <button className="border border-yellow-500 rounded-full bg-stone-100 px-6 py-4 w-2/5">
-          <div className="uppercase text-2xl font-bold">
-            Découvrir
-          </div>
+          <div className="uppercase text-2xl font-bold">Découvrir</div>
         </button>
       </div>
       <div className="absolute top-0 bg-black h-[70vh] z-10 w-full opacity-30">

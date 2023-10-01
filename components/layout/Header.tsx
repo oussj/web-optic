@@ -1,4 +1,3 @@
-import { Hero } from "@/components/home/Hero";
 import {
   BuildingStorefrontIcon,
   EnvelopeIcon,
@@ -47,7 +46,6 @@ export const Header = () => {
           Prendre RDV
         </button>
       </div>
-      <Hero />
     </header>
   );
 };

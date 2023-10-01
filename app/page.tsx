@@ -1,9 +1,24 @@
-import Image from 'next/image'
+import { Hero } from "@/components/home/Hero";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
+    <main>
+      <Hero />
+
+      <div className="w-1/2 mx-auto mt-[150px] mb-10 text-center">
+        Optical Distric, c&apos;est 15 ans d&apos;expertise. Découvrez toute la
+        collection de lunettes de vue, lunettes de soleil, lunettes filtre
+        lumière bleu-violet, lentilles de contact et produits d&apos;entretien
+        pour toute la famille et adaptés à vos besoins et moments de vie.
+        <br />
+        Retrouvez les plus grandes marques de lunettes de vue et de soleil pour
+        être à la pointe de la mode et des dernières tendances : Ray-Ban, Prada,
+        Persol, Dior, Chanel...
+        <br />
+        Optical District vous accompagne tout au long de votre vie et vous
+        propose également des conseils pour préserver votre santé visuelle.
+        Réservez dès à présent votre rendez-vous en magasin.
+      </div>
     </main>
-  )
+  );
 }
