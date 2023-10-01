@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <div className="h-[480px] w-3/5 mb-16 mx-auto mt-[150px] rounded-2xl">
+      <div className="h-[480px] w-3/5 mb-16 mx-auto mt-[100px] rounded-2xl">
         <Map latitude={48.9373465} longitude={2.3545065} />
       </div>
-      <div className="w-1/2 mx-auto mt-[150px] mb-10 text-center">
+      <div className="w-1/2 mx-auto my-[100px] text-center">
         Optical Distric, c&apos;est 15 ans d&apos;expertise. Découvrez toute la
         collection de lunettes de vue, lunettes de soleil, lunettes filtre
         lumière bleu-violet, lentilles de contact et produits d&apos;entretien
