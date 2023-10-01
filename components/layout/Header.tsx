@@ -1,3 +1,4 @@
+import { Hero } from "@/components/home/Hero";
 import {
   BuildingStorefrontIcon,
   EnvelopeIcon,
@@ -13,6 +14,7 @@ export const Header = () => {
         <div className="flex items-center px-6">
           <Image
             src="https://uploads-ssl.webflow.com/627bba3678374bf89ac91338/627bbccdf71f9d003314bab7_opticaldistrict.fr-logo-v2.png"
+            // src="https://img.freepik.com/vecteurs-premium/logo-qui-dit-logo-dessus_939690-2.jpg"
             width={200}
             height={75}
             alt="Optical District"
@@ -33,7 +35,9 @@ export const Header = () => {
       <div className="bg-white flex justify-between items-center h-[64px] shadow-lg px-16">
         <nav className="flex flex-row space-x-16">
           <div className="cursor-pointer hover:underline">Lunettes de vue</div>
-          <div className="cursor-pointer hover:underline">Lunettes de soleil</div>
+          <div className="cursor-pointer hover:underline">
+            Lunettes de soleil
+          </div>
           <div className="cursor-pointer hover:underline">Lentilles</div>
           <div className="cursor-pointer hover:underline">Sport</div>
           <div className="cursor-pointer hover:underline">News</div>
@@ -43,6 +47,7 @@ export const Header = () => {
           Prendre RDV
         </button>
       </div>
+      <Hero />
     </header>
   );
 };
