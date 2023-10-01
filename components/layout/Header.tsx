@@ -20,18 +20,18 @@ export const Header = () => {
           />
         </div>
         <div className="flex flex-row">
-          <button className="bg-black hover:bg-blue-900 flex items-center border border-zinc-700 px-1 lg:px-6">
+          <button className="bg-black hover:bg-blue-900 flex items-center border border-zinc-700 px-3 lg:px-6">
             <EnvelopeIcon className="h-8 w-8 text-white" />
           </button>
-          <button className="bg-black hover:bg-blue-900 flex items-center border border-zinc-700 px-1 lg:px-6">
+          <button className="bg-black hover:bg-blue-900 flex items-center border border-zinc-700 px-3 lg:px-6">
             <PhoneIcon className="h-8 w-8 text-white" />
           </button>
-          <button className="bg-black hover:bg-blue-900 flex items-center border border-zinc-700 px-1 lg:px-6">
+          <button className="bg-black hover:bg-blue-900 flex items-center border border-zinc-700 px-3 lg:px-6">
             <MapPinIcon className="h-8 w-8 text-white" />
           </button>
         </div>
       </div>
-      <div className="bg-white flex justify-between items-center h-[64px] shadow-lg px-16">
+      <div className="hidden bg-white lg:flex justify-between items-center h-[64px] shadow-lg px-16">
         <nav className="flex flex-row space-x-16">
           <div className="cursor-pointer hover:underline">Lunettes de vue</div>
           <div className="cursor-pointer hover:underline">
